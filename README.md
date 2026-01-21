@@ -13,27 +13,9 @@ To that end, we'll cover the following:
 
 ## setup
 
-*(As of April 2025)*
+*(As of January 2026)*
 
 1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository) this repository.
-2. [Create a Codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) for your forked repository (this may take a few minutes to load at first). Use the codespace to make changes to the code, and to test the web app.
-3. Once you're ready, commit and push your final changes to your repository.
-4. Test your code by submitting your forked repository [to the Gradescope autograder](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment) on Canvas.
-
-**Packages Available:**
-
-The environment for this exercise is built with the following environment.yml:
-
-```yml
-name: week-2
-dependencies:
-  - python=3.11
-  - pip
-  - pip:
-    - ipykernel  # for Jupyter Notebook
-    - streamlit
-    - pandas
-    - numpy
-```
-
-*Note: you cannot update this environment. This is only shared as reference for you.*
+2. Clone this repository using [VS Code](https://code.visualstudio.com/docs/sourcecontrol/quickstart) or using [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
+3. See the [environment.yml](./environment.yml) file. Create this environment locally using `conda env create -f environment.yml` and load it, or use an existing environment that already has these packages installed.
+4. Edit your repository, commit as you go, and push your changes to your fork.
